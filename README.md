@@ -24,7 +24,10 @@
 - action object, takes in the type of change to make and can take a second argument of a payload
 - then gets sent to reducer via a dispatch function --> dispatch({type: "ADD_BOOK, book:{}})
 - reducer takes in action and state we are manipulating as parameters --> reducer(state, action)
+
   - check the action type
   - update the state object
   - return the state
     - Provider value
+
+- want to export the reducer function which is a function that reduces all the different functions that we have to manipulate the state into one single function
